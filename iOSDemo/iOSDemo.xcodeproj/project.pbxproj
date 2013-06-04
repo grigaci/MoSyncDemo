@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0EF4DE1717488D0041A357 /* userCode.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0EF4DC171747890041A357 /* userCode.o */; };
+		0B80AC98171EED65002EDBD1 /* resources in Resources */ = {isa = PBXBuildFile; fileRef = 85A0815311353EDE00267D56 /* resources */; };
+		0B80AC99171EF2BE002EDBD1 /* MoSyncLibs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B0EF4DF171748A40041A357 /* MoSyncLibs.a */; };
+		0B92CFDB1716AFFF002DFDF6 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 85796C5312719251002B7859 /* Icon-72.png */; };
+		0B92CFDC1716AFFF002DFDF6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 85796C5412719251002B7859 /* Icon.png */; };
+		0B92CFDD1716AFFF002DFDF6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4A6E14D14D8030300616741 /* Icon@2x.png */; };
+		0B92CFDE1716AFFF002DFDF6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4344B356165136A7005E26C6 /* Default-568h@2x.png */; };
+		0B92CFE01716AFFF002DFDF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		0B92CFE11716AFFF002DFDF6 /* MoSyncAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MoSyncAppDelegate.mm */; };
+		0B92CFE31716AFFF002DFDF6 /* MoSyncViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 85DF23B8126744D1003A0FF6 /* MoSyncViewController.mm */; };
+		0B92CFE51716AFFF002DFDF6 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6019007315B8587C008F2D0E /* CoreVideo.framework */; };
+		0B92CFE61716AFFF002DFDF6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 433CCCB7152DC7E90055828B /* StoreKit.framework */; };
+		0B92CFE71716AFFF002DFDF6 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E438DF571535E09B008B5005 /* CoreMedia.framework */; };
+		0B92CFE81716AFFF002DFDF6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43039F84148F939600254C4C /* MobileCoreServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0B92CFE91716AFFF002DFDF6 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CE0BFE1463EEA400F8FFC3 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0B92CFEA1716AFFF002DFDF6 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B44A0513F94480001F2492 /* MediaPlayer.framework */; };
+		0B92CFEB1716AFFF002DFDF6 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431869C813F69ECA0051D97A /* EventKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0B92CFEC1716AFFF002DFDF6 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431869BE13F691E50051D97A /* CoreMotion.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0B92CFED1716AFFF002DFDF6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4370369D13E9487D00F22783 /* AddressBook.framework */; };
+		0B92CFEE1716AFFF002DFDF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		0B92CFEF1716AFFF002DFDF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		0B92CFF01716AFFF002DFDF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		0B92CFF11716AFFF002DFDF6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E2A0D51181D1B200CDB453 /* AudioToolbox.framework */; };
+		0B92CFF21716AFFF002DFDF6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850943881185B35D004A3B2D /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0B92CFF31716AFFF002DFDF6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850944001185C440004A3B2D /* CoreLocation.framework */; };
+		0B92CFF41716AFFF002DFDF6 /* libMoSyncLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DF23EF126745DA003A0FF6 /* libMoSyncLib.a */; };
+		0B92CFF51716AFFF002DFDF6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858B400F12E67D8D0058DBFC /* OpenGLES.framework */; };
+		0B92CFF61716AFFF002DFDF6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 858B403D12E67F790058DBFC /* QuartzCore.framework */; };
+		0B92CFF71716AFFF002DFDF6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B10E94914065AE600B6DA6B /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0B92CFF81716AFFF002DFDF6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB03FF146A6A410088E3A4 /* libsqlite3.dylib */; };
+		0B92CFF91716AFFF002DFDF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4180481B147E91DC0048FB95 /* SystemConfiguration.framework */; };
+		0B92CFFA1716AFFF002DFDF6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D376CA71588703F00CEF01D /* MapKit.framework */; };
+		8BFA6927175DE3D600D6E6A2 /* NativeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFA6925175DE3D600D6E6A2 /* NativeScreen.xib */; };
+		8BFA692B175DE3F500D6E6A2 /* NativeScreen.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA6929175DE3F500D6E6A2 /* NativeScreen.mm */; };
+		8BFA69A8175DFFE500D6E6A2 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA69A7175DFFE500D6E6A2 /* AppController.mm */; };
+		8BFA69AB175E030900D6E6A2 /* MoSyncScreen.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA69AA175E030900D6E6A2 /* MoSyncScreen.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BFA69B3175E363400D6E6A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFA69AF175E363400D6E6A2 /* MoSync.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 85F2550D11AC125400EB47EE;
+			remoteInfo = MoSyncLib;
+		};
+		8BFA69B5175E364B00D6E6A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFA69AF175E363400D6E6A2 /* MoSync.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 85F2550C11AC125400EB47EE;
+			remoteInfo = MoSyncLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0EF4DC171747890041A357 /* userCode.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = userCode.o; sourceTree = "<group>"; };
+		0B0EF4DF171748A40041A357 /* MoSyncLibs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = MoSyncLibs.a; sourceTree = "<group>"; };
+		0B10E94914065AE600B6DA6B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0B92CFFE1716AFFF002DFDF6 /* iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MoSyncAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoSyncAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MoSyncAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MoSyncAppDelegate.mm; sourceTree = "<group>"; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28D7ACF60DDB3853001CB0EB /* MoSyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoSyncViewController.h; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* MoSync_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoSync_Prefix.pch; sourceTree = "<group>"; };
+		4180481B147E91DC0048FB95 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		41EB03FF146A6A410088E3A4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		43039F84148F939600254C4C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		431869BE13F691E50051D97A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		431869C813F69ECA0051D97A /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		433CCCB7152DC7E90055828B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4344B356165136A7005E26C6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4370369D13E9487D00F22783 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		43B44A0513F94480001F2492 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		43CE0BFE1463EEA400F8FFC3 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		5D376CA71588703F00CEF01D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6019007315B8587C008F2D0E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		850943881185B35D004A3B2D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		850944001185C440004A3B2D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8519011E1199B90400B71F58 /* data_section.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = data_section.bin; sourceTree = "<group>"; };
+		85796C5312719251002B7859 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		85796C5412719251002B7859 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		858B400F12E67D8D0058DBFC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		858B403D12E67F790058DBFC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		85A0815311353EDE00267D56 /* resources */ = {isa = PBXFileReference; lastKnownFileType = text; path = resources; sourceTree = "<group>"; };
+		85DF23B8126744D1003A0FF6 /* MoSyncViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MoSyncViewController.mm; sourceTree = "<group>"; };
+		85DF23EF126745DA003A0FF6 /* libMoSyncLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMoSyncLib.a; path = "libs/Release-iphonesimulator/libMoSyncLib.a"; sourceTree = "<group>"; };
+		85E2A0D51181D1B200CDB453 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		85F2558911AC155D00EB47EE /* iOSDemo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = iOSDemo.plist; sourceTree = "<group>"; };
+		85F25B0011AD723900EB47EE /* cpp_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpp_defs.h; path = helpers/cpp_defs.h; sourceTree = "<group>"; };
+		85F25B0111AD723900EB47EE /* cpp_maapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpp_maapi.h; path = helpers/cpp_maapi.h; sourceTree = "<group>"; };
+		8BFA6925175DE3D600D6E6A2 /* NativeScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeScreen.xib; sourceTree = "<group>"; };
+		8BFA6928175DE3F500D6E6A2 /* NativeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeScreen.h; sourceTree = "<group>"; };
+		8BFA6929175DE3F500D6E6A2 /* NativeScreen.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NativeScreen.mm; sourceTree = "<group>"; };
+		8BFA69A6175DFFE500D6E6A2 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		8BFA69A7175DFFE500D6E6A2 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = "<group>"; };
+		8BFA69A9175E030900D6E6A2 /* MoSyncScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoSyncScreen.h; sourceTree = "<group>"; };
+		8BFA69AA175E030900D6E6A2 /* MoSyncScreen.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MoSyncScreen.mm; sourceTree = "<group>"; };
+		8BFA69AF175E363400D6E6A2 /* MoSync.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MoSync.xcodeproj; path = ../MoSyncSDK/runtimes/cpp/platforms/iphone/MoSync.xcodeproj; sourceTree = "<group>"; };
+		E438DF571535E09B008B5005 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E4A6E14D14D8030300616741 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B92CFE41716AFFF002DFDF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B92CFE51716AFFF002DFDF6 /* CoreVideo.framework in Frameworks */,
+				0B92CFE61716AFFF002DFDF6 /* StoreKit.framework in Frameworks */,
+				0B92CFE71716AFFF002DFDF6 /* CoreMedia.framework in Frameworks */,
+				0B92CFE81716AFFF002DFDF6 /* MobileCoreServices.framework in Frameworks */,
+				0B92CFE91716AFFF002DFDF6 /* iAd.framework in Frameworks */,
+				0B92CFEA1716AFFF002DFDF6 /* MediaPlayer.framework in Frameworks */,
+				0B92CFEB1716AFFF002DFDF6 /* EventKit.framework in Frameworks */,
+				0B92CFEC1716AFFF002DFDF6 /* CoreMotion.framework in Frameworks */,
+				0B92CFED1716AFFF002DFDF6 /* AddressBook.framework in Frameworks */,
+				0B92CFEE1716AFFF002DFDF6 /* Foundation.framework in Frameworks */,
+				0B92CFEF1716AFFF002DFDF6 /* UIKit.framework in Frameworks */,
+				0B92CFF01716AFFF002DFDF6 /* CoreGraphics.framework in Frameworks */,
+				0B92CFF11716AFFF002DFDF6 /* AudioToolbox.framework in Frameworks */,
+				0B92CFF21716AFFF002DFDF6 /* AVFoundation.framework in Frameworks */,
+				0B92CFF31716AFFF002DFDF6 /* CoreLocation.framework in Frameworks */,
+				0B92CFF41716AFFF002DFDF6 /* libMoSyncLib.a in Frameworks */,
+				0B92CFF51716AFFF002DFDF6 /* OpenGLES.framework in Frameworks */,
+				0B92CFF61716AFFF002DFDF6 /* QuartzCore.framework in Frameworks */,
+				0B92CFF71716AFFF002DFDF6 /* MessageUI.framework in Frameworks */,
+				0B92CFF81716AFFF002DFDF6 /* libsqlite3.dylib in Frameworks */,
+				0B92CFF91716AFFF002DFDF6 /* SystemConfiguration.framework in Frameworks */,
+				0B92CFFA1716AFFF002DFDF6 /* MapKit.framework in Frameworks */,
+				0B0EF4DE1717488D0041A357 /* userCode.o in Frameworks */,
+				0B80AC99171EF2BE002EDBD1 /* MoSyncLibs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8BFA69A6175DFFE500D6E6A2 /* AppController.h */,
+				8BFA69A7175DFFE500D6E6A2 /* AppController.mm */,
+				8BFA6925175DE3D600D6E6A2 /* NativeScreen.xib */,
+				8BFA6928175DE3F500D6E6A2 /* NativeScreen.h */,
+				8BFA6929175DE3F500D6E6A2 /* NativeScreen.mm */,
+				8BFA69A9175E030900D6E6A2 /* MoSyncScreen.h */,
+				8BFA69AA175E030900D6E6A2 /* MoSyncScreen.mm */,
+				1D3623240D0F684500981E51 /* MoSyncAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MoSyncAppDelegate.mm */,
+				28D7ACF60DDB3853001CB0EB /* MoSyncViewController.h */,
+				85DF23B8126744D1003A0FF6 /* MoSyncViewController.mm */,
+				85F25AFF11AD722D00EB47EE /* helpers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B92CFFE1716AFFF002DFDF6 /* iOSDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				0B0EF4DF171748A40041A357 /* MoSyncLibs.a */,
+				0B0EF4DC171747890041A357 /* userCode.o */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				41EB03FF146A6A410088E3A4 /* libsqlite3.dylib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* MoSync_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E4A6E14D14D8030300616741 /* Icon@2x.png */,
+				85796C5312719251002B7859 /* Icon-72.png */,
+				4344B356165136A7005E26C6 /* Default-568h@2x.png */,
+				85796C5412719251002B7859 /* Icon.png */,
+				8519011E1199B90400B71F58 /* data_section.bin */,
+				85A0815311353EDE00267D56 /* resources */,
+				85F2558911AC155D00EB47EE /* iOSDemo.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BFA69AF175E363400D6E6A2 /* MoSync.xcodeproj */,
+				6019007315B8587C008F2D0E /* CoreVideo.framework */,
+				433CCCB7152DC7E90055828B /* StoreKit.framework */,
+				4180481B147E91DC0048FB95 /* SystemConfiguration.framework */,
+				E438DF571535E09B008B5005 /* CoreMedia.framework */,
+				43039F84148F939600254C4C /* MobileCoreServices.framework */,
+				43CE0BFE1463EEA400F8FFC3 /* iAd.framework */,
+				43B44A0513F94480001F2492 /* MediaPlayer.framework */,
+				431869C813F69ECA0051D97A /* EventKit.framework */,
+				431869BE13F691E50051D97A /* CoreMotion.framework */,
+				4370369D13E9487D00F22783 /* AddressBook.framework */,
+				850944001185C440004A3B2D /* CoreLocation.framework */,
+				85DF23EF126745DA003A0FF6 /* libMoSyncLib.a */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				85E2A0D51181D1B200CDB453 /* AudioToolbox.framework */,
+				850943881185B35D004A3B2D /* AVFoundation.framework */,
+				858B400F12E67D8D0058DBFC /* OpenGLES.framework */,
+				858B403D12E67F790058DBFC /* QuartzCore.framework */,
+				0B10E94914065AE600B6DA6B /* MessageUI.framework */,
+				5D376CA71588703F00CEF01D /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85F25AFF11AD722D00EB47EE /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				85F25B0011AD723900EB47EE /* cpp_defs.h */,
+				85F25B0111AD723900EB47EE /* cpp_maapi.h */,
+			);
+			name = helpers;
+			sourceTree = "<group>";
+		};
+		8BFA69B0175E363400D6E6A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BFA69B4175E363400D6E6A2 /* libMoSyncLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B92CFD71716AFFF002DFDF6 /* iOSDemoNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B92CFFB1716AFFF002DFDF6 /* Build configuration list for PBXNativeTarget "iOSDemoNative" */;
+			buildPhases = (
+				0B92CFD81716AFFF002DFDF6 /* Resources */,
+				0B92CFDF1716AFFF002DFDF6 /* Sources */,
+				0B92CFE41716AFFF002DFDF6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFA69B6175E364B00D6E6A2 /* PBXTargetDependency */,
+			);
+			name = iOSDemoNative;
+			productName = "__PROJECT_NAME_\U0010_";
+			productReference = 0B92CFFE1716AFFF002DFDF6 /* iOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iOSDemo" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8BFA69B0175E363400D6E6A2 /* Products */;
+					ProjectRef = 8BFA69AF175E363400D6E6A2 /* MoSync.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0B92CFD71716AFFF002DFDF6 /* iOSDemoNative */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8BFA69B4175E363400D6E6A2 /* libMoSyncLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMoSyncLib.a;
+			remoteRef = 8BFA69B3175E363400D6E6A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B92CFD81716AFFF002DFDF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B92CFDB1716AFFF002DFDF6 /* Icon-72.png in Resources */,
+				0B92CFDC1716AFFF002DFDF6 /* Icon.png in Resources */,
+				0B92CFDD1716AFFF002DFDF6 /* Icon@2x.png in Resources */,
+				0B92CFDE1716AFFF002DFDF6 /* Default-568h@2x.png in Resources */,
+				0B80AC98171EED65002EDBD1 /* resources in Resources */,
+				8BFA6927175DE3D600D6E6A2 /* NativeScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B92CFDF1716AFFF002DFDF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B92CFE01716AFFF002DFDF6 /* main.m in Sources */,
+				0B92CFE11716AFFF002DFDF6 /* MoSyncAppDelegate.mm in Sources */,
+				0B92CFE31716AFFF002DFDF6 /* MoSyncViewController.mm in Sources */,
+				8BFA692B175DE3F500D6E6A2 /* NativeScreen.mm in Sources */,
+				8BFA69A8175DFFE500D6E6A2 /* AppController.mm in Sources */,
+				8BFA69AB175E030900D6E6A2 /* MoSyncScreen.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BFA69B6175E364B00D6E6A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MoSyncLib;
+			targetProxy = 8BFA69B5175E364B00D6E6A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B92CFFC1716AFFF002DFDF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MoSync_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					Classes,
+					/Applications/MoSync/include/MAStdNative,
+					../../,
+					"../MoSyncSDK/runtimes/cpp/platforms/iphone/Classes/**",
+					../MoSyncSDK/runtimes/cpp/base,
+					../MoSyncSDK/intlibs,
+					../MoSyncSDK/runtimes/cpp,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/iOSDemo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"\"$(SRCROOT)/libs/Release-iphonesimulator\"",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DMOSYNC_NATIVE";
+				PRODUCT_NAME = iOSDemo;
+			};
+			name = Debug;
+		};
+		0B92CFFD1716AFFF002DFDF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MoSync_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					Classes,
+					/Applications/MoSync/include/MAStdNative,
+					../../,
+					"../MoSyncSDK/runtimes/cpp/platforms/iphone/Classes/**",
+					../MoSyncSDK/runtimes/cpp/base,
+					../MoSyncSDK/intlibs,
+					../MoSyncSDK/runtimes/cpp,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/iOSDemo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"\"$(SRCROOT)/libs/Release-iphonesimulator\"",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DMOSYNC_NATIVE";
+				PRODUCT_NAME = iOSDemo;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = _USE_REBUILDER_;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = Classes;
+				IPHONEOS_DEPLOYMENT_TARGET = 2.0;
+				LIBRARY_SEARCH_PATHS = "libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				PRODUCT_NAME = iOSDemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = _USE_REBUILDER_;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = Classes;
+				IPHONEOS_DEPLOYMENT_TARGET = 2.0;
+				LIBRARY_SEARCH_PATHS = "libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				PRODUCT_NAME = iOSDemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B92CFFB1716AFFF002DFDF6 /* Build configuration list for PBXNativeTarget "iOSDemoNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B92CFFC1716AFFF002DFDF6 /* Debug */,
+				0B92CFFD1716AFFF002DFDF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
