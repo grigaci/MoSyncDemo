@@ -1,10 +1,25 @@
-//
-//  AppController.mm
-//  iOSDemo
-//
-//  Created by Bogdan Iusco on 6/4/13.
-//
-//
+/* Copyright (C) 2013 MoSync AB
+ 
+ This program is free software; you can redistribute it and/or modify it under
+ the terms of the GNU General Public License, version 2, as published by
+ the Free Software Foundation.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+ for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program; see the file COPYING.  If not, write to the Free
+ Software Foundation, 59 Temple Place - Suite 330, Boston, MA
+ 02111-1307, USA.
+ */
+
+#define TRANSITION_TIME_MS 500
+#define TRANSITION_TIME_S 0.5
+
+#define XIB_FILE_IPHONE @"NativeScreen_iPhone"
+#define XIB_FILE_IPAD @"NativeScreen_iPad"
 
 #import "AppController.h"
 
@@ -30,32 +45,23 @@
 -(void)showMoSyncScreen {
 	maWidgetScreenShowWithTransition(self.mosyncScreen.screenHandle,
 									 MAW_TRANSITION_TYPE_FLIP_FROM_LEFT,
-									 500);
-//	maWidgetScreenShow(self.mosyncScreen.screenHandle);
+									 TRANSITION_TIME_MS);
 }
 
 #pragma mark MoSyncScreenDelegate
 -(void)showNativeScreen {
-//	self.window.rootViewController = self.nativeScreen;
-	
-    // after animation block
-    void (^handleTransitionDoneBlock)(BOOL) = ^(BOOL isTransFinished) {
-        if ( isTransFinished ) {
-            // If needed in the future.
-        }
-    };
 
-    // animation block
+	// Animation block.
     void (^doAnimationBlock)(void) = ^(void) {
 		self.window.rootViewController = self.nativeScreen;
     };
 
     [UIView transitionWithView:self.window
-                      duration:0.5
+                      duration:TRANSITION_TIME_S
                        options:UIViewAnimationOptionTransitionFlipFromRight
-                    animations:doAnimationBlock completion:handleTransitionDoneBlock];
+                    animations:doAnimationBlock
+					completion:nil];
 }
-
 
 -(UIWindow*)window {
 	if (!_window) {
@@ -66,7 +72,14 @@
 
 -(NativeScreen*)nativeScreen {
 	if (!_nativeScreen) {
-		_nativeScreen = [[NativeScreen alloc] initWithNibName:@"NativeScreen" bundle:nil];
+		NSString* nibFileName;
+		if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+			nibFileName = XIB_FILE_IPHONE;
+		} else {
+			nibFileName = XIB_FILE_IPAD;
+		}
+
+		_nativeScreen = [[NativeScreen alloc] initWithNibName:nibFileName bundle:nil];
 		_nativeScreen.delegate = self;
 	}
 	return _nativeScreen;

@@ -39,10 +39,11 @@
 		0B92CFF81716AFFF002DFDF6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 41EB03FF146A6A410088E3A4 /* libsqlite3.dylib */; };
 		0B92CFF91716AFFF002DFDF6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4180481B147E91DC0048FB95 /* SystemConfiguration.framework */; };
 		0B92CFFA1716AFFF002DFDF6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D376CA71588703F00CEF01D /* MapKit.framework */; };
-		8BFA6927175DE3D600D6E6A2 /* NativeScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFA6925175DE3D600D6E6A2 /* NativeScreen.xib */; };
+		8BFA6927175DE3D600D6E6A2 /* NativeScreen_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFA6925175DE3D600D6E6A2 /* NativeScreen_iPhone.xib */; };
 		8BFA692B175DE3F500D6E6A2 /* NativeScreen.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA6929175DE3F500D6E6A2 /* NativeScreen.mm */; };
 		8BFA69A8175DFFE500D6E6A2 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA69A7175DFFE500D6E6A2 /* AppController.mm */; };
 		8BFA69AB175E030900D6E6A2 /* MoSyncScreen.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA69AA175E030900D6E6A2 /* MoSyncScreen.mm */; };
+		8BFA69B9175E4EB000D6E6A2 /* NativeScreen_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BFA69B8175E4EB000D6E6A2 /* NativeScreen_iPad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,7 +102,7 @@
 		85F2558911AC155D00EB47EE /* iOSDemo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = iOSDemo.plist; sourceTree = "<group>"; };
 		85F25B0011AD723900EB47EE /* cpp_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpp_defs.h; path = helpers/cpp_defs.h; sourceTree = "<group>"; };
 		85F25B0111AD723900EB47EE /* cpp_maapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cpp_maapi.h; path = helpers/cpp_maapi.h; sourceTree = "<group>"; };
-		8BFA6925175DE3D600D6E6A2 /* NativeScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeScreen.xib; sourceTree = "<group>"; };
+		8BFA6925175DE3D600D6E6A2 /* NativeScreen_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeScreen_iPhone.xib; sourceTree = "<group>"; };
 		8BFA6928175DE3F500D6E6A2 /* NativeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeScreen.h; sourceTree = "<group>"; };
 		8BFA6929175DE3F500D6E6A2 /* NativeScreen.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NativeScreen.mm; sourceTree = "<group>"; };
 		8BFA69A6175DFFE500D6E6A2 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
@@ -109,6 +110,7 @@
 		8BFA69A9175E030900D6E6A2 /* MoSyncScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoSyncScreen.h; sourceTree = "<group>"; };
 		8BFA69AA175E030900D6E6A2 /* MoSyncScreen.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MoSyncScreen.mm; sourceTree = "<group>"; };
 		8BFA69AF175E363400D6E6A2 /* MoSync.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MoSync.xcodeproj; path = ../MoSyncSDK/runtimes/cpp/platforms/iphone/MoSync.xcodeproj; sourceTree = "<group>"; };
+		8BFA69B8175E4EB000D6E6A2 /* NativeScreen_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeScreen_iPad.xib; sourceTree = "<group>"; };
 		E438DF571535E09B008B5005 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		E4A6E14D14D8030300616741 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,7 +155,8 @@
 			children = (
 				8BFA69A6175DFFE500D6E6A2 /* AppController.h */,
 				8BFA69A7175DFFE500D6E6A2 /* AppController.mm */,
-				8BFA6925175DE3D600D6E6A2 /* NativeScreen.xib */,
+				8BFA69B8175E4EB000D6E6A2 /* NativeScreen_iPad.xib */,
+				8BFA6925175DE3D600D6E6A2 /* NativeScreen_iPhone.xib */,
 				8BFA6928175DE3F500D6E6A2 /* NativeScreen.h */,
 				8BFA6929175DE3F500D6E6A2 /* NativeScreen.mm */,
 				8BFA69A9175E030900D6E6A2 /* MoSyncScreen.h */,
@@ -333,7 +336,8 @@
 				0B92CFDD1716AFFF002DFDF6 /* Icon@2x.png in Resources */,
 				0B92CFDE1716AFFF002DFDF6 /* Default-568h@2x.png in Resources */,
 				0B80AC98171EED65002EDBD1 /* resources in Resources */,
-				8BFA6927175DE3D600D6E6A2 /* NativeScreen.xib in Resources */,
+				8BFA6927175DE3D600D6E6A2 /* NativeScreen_iPhone.xib in Resources */,
+				8BFA69B9175E4EB000D6E6A2 /* NativeScreen_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +389,7 @@
 					../MoSyncSDK/runtimes/cpp,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/iOSDemo.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
 					"\"$(SRCROOT)/libs/Release-iphonesimulator\"",
@@ -394,6 +398,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DMOSYNC_NATIVE";
 				PRODUCT_NAME = iOSDemo;
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
@@ -416,7 +421,7 @@
 					../MoSyncSDK/runtimes/cpp,
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/iOSDemo.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
 					"\"$(SRCROOT)/libs/Release-iphonesimulator\"",
@@ -425,6 +430,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DMOSYNC_NATIVE";
 				PRODUCT_NAME = iOSDemo;
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
@@ -438,7 +444,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = Classes;
-				IPHONEOS_DEPLOYMENT_TARGET = 2.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = "libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
@@ -458,7 +464,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = Classes;
-				IPHONEOS_DEPLOYMENT_TARGET = 2.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = "libs/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
