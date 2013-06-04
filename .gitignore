@@ -9,8 +9,6 @@ stores
 FinalOutput
 ipch
 
-CPP_IX_*.h
-IX_*.h
 *.ncb
 *.suo
 *.user
@@ -87,16 +85,6 @@ LocalFiles.bin*
 /tools/debugger/start.bat
 
 /tools/RuntimeBuilder/Settings.rb
-
-/intlibs/helpers/asm_config.h
-/intlibs/helpers/cpp_defs.h
-/intlibs/helpers/cpp_maapi.h
-/intlibs/helpers/maapi_defs.h
-/intlibs/helpers/constSets.h
-
-/intlibs/stabs/stabs_builtins_generated.h
-
-/intlibs/bluetooth/config_bluetooth.h
 
 /libs/MAStd/GLES/magl_functions.h
 /libs/MAStd/maapi.h
